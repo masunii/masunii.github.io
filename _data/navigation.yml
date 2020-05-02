@@ -4,11 +4,11 @@ main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "CATEGORIES"
-    url: /categories/
+    url: /CATEGORIES/
   - title: "STUDY"
-    url: /categories/STUDY/
+    url: /CATEGORIES/STUDY/
   - title: "DIARY"
-    url: /categories/DIARY/
+    url: /CATEGORIES/DIARY/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
