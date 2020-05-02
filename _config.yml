@@ -93,11 +93,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  name             : "KYEONGAH MA"
+  avatar           : "/P20170921_011006000_A4B7B88F-54FE-4EF3-8516-1635B91C5159.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  location         : "SOUTH KOREA, SEOUL"
+  email            : mka31053@gmail.com
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
