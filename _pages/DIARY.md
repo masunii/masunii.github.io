@@ -1,9 +1,7 @@
 ---
-permalink: CATEGORIES/DIARY/
 title: "DIARY"
+permalink: /categories/DIARY/
 layout: category
-excerpt: "DIARY.md"
-toc: true
 author_profile: true
 taxonomy: DIARY
 ---
