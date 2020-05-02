@@ -1,7 +1,7 @@
 ---
-permalink: /DIARY/
+permalink: CATEGORIES/DIARY/
 title: "DIARY"
 excerpt: "DIARY.md"
 toc: true
-tags: [DIARY]
+author_profile: true
 ---
