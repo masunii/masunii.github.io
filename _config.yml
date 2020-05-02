@@ -15,7 +15,7 @@
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
-locale                   : "ko-KOR"
+locale                   : "en-US"
 title                    : "masunii의 블로그"
 title_separator          : "-"
 subtitle                 : "공부하고 생각하고 즐기는 공간" # site tagline that appears below site title in masthead
@@ -248,15 +248,15 @@ tag_archive:
   path: /tags/
 # https://github.com/jekyll/jekyll-archives
 # jekyll-archives:
-   enabled:
-     - categories
-     - tags
+#   enabled:
+#     - categories
+#     - tags
 #   layouts:
 #     category: archive-taxonomy
 #     tag: archive-taxonomy
-   permalinks:
-     category: /categories/:name/
-     tag: /tags/:name/
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
 
 
 # HTML Compression
@@ -276,7 +276,7 @@ defaults:
     values:
       layout: single
       author_profile: true
-      read_time: false
+      read_time: true
       comments: true
       share: true
       related: true
