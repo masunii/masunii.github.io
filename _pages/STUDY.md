@@ -1,7 +1,7 @@
 ---
-permalink: /STUDY/
+permalink: CATEGORIES/STUDY/
 title: "STUDY"
 excerpt: "STUDY.md"
 toc: true
-tags: [STUDY]
+author_profile: true
 ---
