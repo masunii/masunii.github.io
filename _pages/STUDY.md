@@ -1,7 +1,7 @@
 ---
-permalink: CATEGORIES/STUDY/
 title: "STUDY"
-excerpt: "STUDY.md"
-toc: true
+permalink: /CATEGORIES/STUDY
+layout: category
 author_profile: true
+taxonomy: STUDY
 ---
