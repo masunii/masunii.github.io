@@ -44,13 +44,13 @@ test_data.head()
 
 * 생존 패턴 탐색하기  
   - 성별 기준  
-```javascript  
+```javascript
 women = train_data.loc[train_data.Sex == 'female']["Survived"]  
 rate_women = sum(women)/len(women)  
 
 print("% of women who survived:", rate_women)  
 ```
-```javascript  
+```javascript
 men = train_data.loc[train_data.Sex == 'male']["Survived"]  
 rate_men = sum(men)/len(men)  
 
@@ -62,7 +62,7 @@ print("% of men who survived:", rate_men)
 
   - machine learning  
 random forest 모델을 만들자  
-```javascript  
+```javascript
 from sklearn.ensemble import RandomForestClassifier  
 
 y = train_data["Survived"]  
@@ -78,7 +78,7 @@ predictions = model.predict(X_test)
 output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predictions})  
 output.to_csv('my_submission.csv', index=False)  
 print("Your submission was successfully saved!")  
-```  
+```
 >이건 무슨말인지 모르겠다. 따로 공부해야할 듯  
 
 
