@@ -19,4 +19,71 @@ python은 기본 문법만 조금 공부해봤는데, 문법으로만 공부를 
 일단 시작!
 
 --------------------------------------------------------------------------------------------------------------------
+목표: titanic호 탑승자의 정보를 이용하여, 생존 여부 예측하기  
+
+#### 1. data tap에서 data 다운받기  
+
+train.csv: 탑승객 정보가 들어있는 파일 (survived 컬럼 값이 0이면 died, 1이면, survived)  
+test.csv: train에서 얻은 패턴 정보를 바탕으로 생존 여부를 예측할 탑승객 정보가 들어있는 파일 (survived 컬럼 값이 없음)  
+gender_submission.csv: 예측값 제출할 양식  
+  
+#### 2. notebook tap에서 문제를 풀 notebook 생성하기  
+  
+코드 실행: '코드 셀 왼쪽의 run 버튼 누르기' or 'shift + enter 누르기'  
+pd: pandas의 줄임. 파이썬 모듈. 데이터 파일의 table을 notebook에 로드하는 역할을 함.
+  
+* data load하기  
+```javascript
+train_data = pd.read_csv("/kaggle/input/titanic/train.csv")
+train_data.head()
+```
+```javascript
+test_data = pd.read_csv("/kaggle/input/titanic/test.csv")
+test_data.head()
+```
+
+* 생존 패턴 탐색하기  
+  - 성별 기준  
+ ```javascript
+women = train_data.loc[train_data.Sex == 'female']["Survived"]
+rate_women = sum(women)/len(women)
+
+print("% of women who survived:", rate_women)
+```
+ ```javascript
+men = train_data.loc[train_data.Sex == 'male']["Survived"]
+rate_men = sum(men)/len(men)
+
+print("% of men who survived:", rate_men)
+```
+>table.loc: table의 행,열 추출할 때 사용. (예: table.loc[10,:] -> 10행에 해당하는 모든 열의 데이터)    
+
+위 두 cell을 실행하면 각각 여성: 74%, 남성: 19%로 생존했음을 확인할 수 있음  
+
+  - machine learning  
+random forest 모델을 만들자
+ ```javascript
+from sklearn.ensemble import RandomForestClassifier
+
+y = train_data["Survived"]
+
+features = ["Pclass", "Sex", "SibSp", "Parch"]
+X = pd.get_dummies(train_data[features])
+X_test = pd.get_dummies(test_data[features])
+
+model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=1)
+model.fit(X, y)
+predictions = model.predict(X_test)
+
+output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predictions})
+output.to_csv('my_submission.csv', index=False)
+print("Your submission was successfully saved!")
+```
+>이건 무슨말인지 모르겠다. 따로 공부해야할 듯  
+
+
+-------------------------------------------------------------------------------------------------------
+읭, 이렇게 끝. 정말 입문 튜토리얼이구나!
+
+
 
