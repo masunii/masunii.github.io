@@ -62,7 +62,7 @@ print("% of men who survived:", rate_men)
 
   - machine learning  
 random forest 모델을 만들자  
- ```javascript
+```javascript
 from sklearn.ensemble import RandomForestClassifier
 
 y = train_data["Survived"]
@@ -83,7 +83,7 @@ print("Your submission was successfully saved!")
 
 
 -------------------------------------------------------------------------------------------------------
-읭, 이렇게 끝. 정말 입문 튜토리얼이구나!
+읭, 이렇게 끝. 정말 입문 튜토리얼이구나!?
 
 
 
