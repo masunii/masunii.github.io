@@ -44,6 +44,7 @@ test_data.head()
 
 * 생존 패턴 탐색하기  
   - 성별 기준  
+  
 ```javascript
 women = train_data.loc[train_data.Sex == 'female']["Survived"]  
 rate_women = sum(women)/len(women)  
@@ -62,6 +63,7 @@ print("% of men who survived:", rate_men)
 
   - machine learning  
 random forest 모델을 만들자  
+
 ```javascript
 from sklearn.ensemble import RandomForestClassifier  
 
