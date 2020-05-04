@@ -16,10 +16,16 @@ comments: true
 python은 기본 문법만 조금 공부해봤는데, 문법으로만 공부를 하니 자꾸 까먹어서 비효율적이라는 생각이 들었다.  
 이 kaggle- titanic 문제로 공부를 한다면, 배경 상황을 통한 '문제 정의'부터 '어떤 문제를 해결하기 위해 어떤 문법을 사용할 수 있는 지' 등 데이터 분석 시 고민해봐야할 부분들도 경험해볼 수 있을 것 같았다.  
 마침 초보자를 위한 좋은 [titanic tutorial](https://www.kaggle.com/alexisbcook/titanic-tutorial)을 찾게되어 walkthrough 형식으로 공부를 해 볼 생각이다.    
-일단 시작!
+일단 시작! -> 다 해봤는데, 너무 맛보기용 간단 튜토리얼이라서 당황..  
 
---------------------------------------------------------------------------------------------------------------------
+[유튜브 영상](https://www.youtube.com/watch?v=aqp_9HV58Ls)을 찾게되어 다시 찬찬히 따라해보았다.  
+
+--------------------------------------------------------------------------------------------------------------------  
+
 목표: titanic호 탑승자의 정보를 이용하여, 생존 여부 예측하기  
+
+[나의 kaggle notebook 주소:point_right:](https://www.kaggle.com/kyeongah/let-s-do-it/edit/run/33224875) 
+
 
 #### 1. data tap에서 data 다운받기  
 
@@ -34,58 +40,24 @@ pd: pandas의 줄임. 파이썬 모듈. 데이터 파일의 table을 notebook에
   
 * data load하기  
 ```javascript
-train_data = pd.read_csv("/kaggle/input/titanic/train.csv")
-train_data.head()
+import pandas as pd
+  
+train = pd.read_csv("/kaggle/input/titanic/train.csv")
+test = pd.read_csv("/kaggle/input/titanic/test.csv")
 ```
-```javascript
-test_data = pd.read_csv("/kaggle/input/titanic/test.csv")
-test_data.head()
-```
-
-* 생존 패턴 탐색하기  
-  - 성별 기준  
   
 ```javascript
-women = train_data.loc[train_data.Sex == 'female']["Survived"]  
-rate_women = sum(women)/len(women)  
-
-print("% of women who survived:", rate_women)  
+train.head()
 ```
+>.head(): dataset의 상위 5행을 출력해라  
+>분석할 dataset이 어떻게 구성되어있는 지 파악  
+
 ```javascript
-men = train_data.loc[train_data.Sex == 'male']["Survived"]  
-rate_men = sum(men)/len(men)  
-
-print("% of men who survived:", rate_men)
+train.shape
 ```
+>train dataset의 행, 열 개수 정보를 출력. 출력 예: (891, 12)  
+
+
 >table.loc: table의 행,열 추출할 때 사용. (예: table.loc[10,:] -> 10행에 해당하는 모든 열의 데이터)    
-
-위 두 cell을 실행하면 각각 여성: 74%, 남성: 19%로 생존했음을 확인할 수 있음  
-
-  - machine learning  
-random forest 모델을 만들자  
-
-```javascript
-from sklearn.ensemble import RandomForestClassifier  
-
-y = train_data["Survived"]  
-
-features = ["Pclass", "Sex", "SibSp", "Parch"]  
-X = pd.get_dummies(train_data[features])  
-X_test = pd.get_dummies(test_data[features])  
-
-model = RandomForestClassifier(n_estimators=100, max_depth=5, random_state=1)  
-model.fit(X, y)  
-predictions = model.predict(X_test)  
-
-output = pd.DataFrame({'PassengerId': test_data.PassengerId, 'Survived': predictions})  
-output.to_csv('my_submission.csv', index=False)  
-print("Your submission was successfully saved!")  
-```
->이건 무슨말인지 모르겠다. 따로 공부해야할 듯  
-
-
--------------------------------------------------------------------------------------------------------
-읭, 이렇게 끝. 정말 입문 튜토리얼이구나!?
-
 
 
