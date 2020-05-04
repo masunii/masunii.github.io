@@ -15,10 +15,10 @@ comments: true
 
 python은 기본 문법만 조금 공부해봤는데, 문법으로만 공부를 하니 자꾸 까먹어서 비효율적이라는 생각이 들었다.  
 이 kaggle- titanic 문제로 공부를 한다면, 배경 상황을 통한 '문제 정의'부터 '어떤 문제를 해결하기 위해 어떤 문법을 사용할 수 있는 지' 등 데이터 분석 시 고민해봐야할 부분들도 경험해볼 수 있을 것 같았다.  
-마침 초보자를 위한 좋은 [titanic tutorial](https://www.kaggle.com/alexisbcook/titanic-tutorial)을 찾게되어 walkthrough 형식으로 공부를 해 볼 생각이다.    
+마침 초보자를 위한 좋은 [titanic tutorial](https://www.kaggle.com/alexisbcook/titanic-tutorial)을 찾게되어 따라하면서 공부를 해 볼 생각이다.    
 일단 시작! -> 다 해봤는데, 너무 맛보기용 간단 튜토리얼이라서 당황..  
 
-[유튜브 영상](https://www.youtube.com/watch?v=aqp_9HV58Ls)을 찾게되어 다시 찬찬히 따라해보았다.  
+한국인이 제작한 좋은 [유튜브 walkthrough 영상](https://www.youtube.com/watch?v=aqp_9HV58Ls)을 찾게되어 다시 찬찬히 따라해보는 중이다.  
 
 --------------------------------------------------------------------------------------------------------------------  
 
