@@ -24,8 +24,8 @@ python은 기본 문법만 조금 공부해봤는데, 문법으로만 공부를 
 
 목표: titanic호 탑승자의 정보를 이용하여, 생존 여부 예측하기  
 
-[나의 kaggle notebook 주소:point_right:](https://www.kaggle.com/kyeongah/let-s-do-it/edit/run/33224875) 
-
+[나의 kaggle notebook 주소:point_right:](https://www.kaggle.com/kyeongah/let-s-do-it/edit/run/33224875)  
+[나의 colab notebook 주소(복습용):point_right:](https://colab.research.google.com/drive/1_c-7itnvISFRh_K8Qr-5dFyyr-1qRlXa)
 
 #### 1. data tap에서 data 다운받기  
 
