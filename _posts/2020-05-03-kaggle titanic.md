@@ -23,9 +23,10 @@ kaggle- titanic 문제로 공부를 한다면, 배경 상황을 통한 '문제 �
 
 목표: titanic호 탑승자 정보를 이용하여 생존 여부 예측하기  
  
-[나의 colab notebook 주소:point_right:](https://colab.research.google.com/drive/1_c-7itnvISFRh_K8Qr-5dFyyr-1qRlXa)
- 
-kaggle 제출까지 완료했다.  
+[나의 colab notebook 주소:point_right:](https://colab.research.google.com/drive/1_c-7itnvISFRh_K8Qr-5dFyyr-1qRlXa)  
+>처음에는 kaggle에 있는 notebook으로 하다가, 구글의 colab에 대해 알게되어 변경했다. 이제부터 공부하는 내용은 구글에 다 저장해두면 될 것 같다!  
+
+kaggle 제출 완료!  
 
 ![titanic_ranking](https://user-images.githubusercontent.com/50826051/81499424-93624800-9306-11ea-858b-7d4a1d08b182.JPG)  
 
@@ -33,8 +34,8 @@ kaggle에서 제공하는 튜토리얼만 보고 제출했을 때보다 예측�
 
 동영상을 보면서 따라한 수준이라 이해가 많이 높지는 않지만, 어느정도 감을 잡은 듯 하다.    
 (이와 비슷한 과제가 생긴다면 응용할 수 있을 것 같다.)
-
-
+  
+  
 아래는 진행하면서 작성한 메모들  
 #### 1. data tap에서 data 다운받기  
 
