@@ -51,9 +51,9 @@ pd: pandas의 줄임. 파이썬 모듈. 데이터 파일의 table을 notebook에
   
 
 * data load하기  
+
 ```javascript
-import pandas as pd
-  
+import pandas as pd  
 train = pd.read_csv("/kaggle/input/titanic/train.csv")
 test = pd.read_csv("/kaggle/input/titanic/test.csv")
 ```
