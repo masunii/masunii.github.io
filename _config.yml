@@ -85,9 +85,9 @@ social:
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : "google-gtag" # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : "UA-131036062-2"
     anonymize_ip         : # true, false (default)
 
 
@@ -138,7 +138,7 @@ footer:
       # url:
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: #"https://instagram.com/maaaa_a_"
+      #url: #"https://instagram.com/maaaa_a_"
 
 
 # Reading Files
