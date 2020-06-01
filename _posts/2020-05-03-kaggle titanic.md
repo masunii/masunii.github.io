@@ -3,7 +3,7 @@ title: "kaggle-titanic"
 date: 2020-05-03
 categories: "STUDY"
 tags: 
-excerpt: "STUDY"
+#excerpt: "STUDY"
 comments: true
 ---
 
