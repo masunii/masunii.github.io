@@ -22,7 +22,7 @@ kaggle- titanic 문제로 공부를 한다면, 배경 상황을 통한 '문제 �
 분석 목표: titanic호 탑승자 정보를 이용하여 생존 여부 예측하기  
   
 
->시작 전 colab 사용 꿀팁 :bulb:
+>시작 전 colab 사용 꿀팁 :bulb:  
 Ctrl + MM: cell을 markdown으로 전환  
 Ctrl + MY: cell을 code로 전환  
 Ctrl + MB: 바로 아랫줄에 cell 생성  
