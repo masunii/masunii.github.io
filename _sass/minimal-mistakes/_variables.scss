@@ -119,22 +119,22 @@ $masthead-link-color-hover: mix(#000, $primary-color, 25%) !default;
 $navicon-link-color-hover: mix(#fff, $primary-color, 75%) !default;
 
 /* syntax highlighting (base16) */
-$base00: #282936;
-$base01: #3a3c4e;
-$base02: #4d4f68;
-$base03: #626483;
-$base04: #62d6e8;
-$base05: #e9e9f4;
-$base06: #f1f2f8;
-$base07: #f7f7fb;
-$base08: #ea51b2;
-$base09: #b45bcf;
-$base0a: #00f769;
-$base0b: #ebff87;
-$base0c: #a1efe4;
-$base0d: #62d6e8;
-$base0e: #b45bcf;
-$base0f: #00f769;
+$base00: #fafafa !default;
+$base01: #073642 !default;
+$base02: #586e75 !default;
+$base03: #657b83 !default;
+$base04: #839496 !default;
+$base05: #586e75 !default;
+$base06: #eee8d5 !default;
+$base07: #fdf6e3 !default;
+$base08: #dc322f !default;
+$base09: #cb4b16 !default;
+$base0a: #b58900 !default;
+$base0b: #859900 !default;
+$base0c: #2aa198 !default;
+$base0d: #268bd2 !default;
+$base0e: #6c71c4 !default;
+$base0f: #d33682 !default;
 
 /*
    Breakpoints
