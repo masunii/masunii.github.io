@@ -1,5 +1,5 @@
 ---
-title: "edwith_Pandas"
+title: "edwith[python]Pandas"
 date: 2020-06-02
 categories: "STUDY"
 comments: TRUE
