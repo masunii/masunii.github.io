@@ -51,9 +51,7 @@ bar_chart("Pclass")
 #### 1.3 함께 탑승한 형제/자매 및 배우자 인원 수에 따른 생존비율  
 ```javascript
 bar_chart("SibSp")
-```  
-<center><img src = "https://user-images.githubusercontent.com/50826051/83612829-e8b80f00-a5bd-11ea-8dbe-9061ee277409.png"><center>  
-  
+```
 > 혼자 탑승한 경우 사망 비율이 높음. 그 외의 것은 판단 어려움  
   
   
