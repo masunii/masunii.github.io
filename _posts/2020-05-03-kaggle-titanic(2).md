@@ -34,7 +34,8 @@ def bar_chart(feature):
 ```javascript
 bar_chart('Sex')
 ```
-<center><img src = "https://user-images.githubusercontent.com/50826051/83611356-d210b880-a5bb-11ea-933d-f27ae7df2c08.png"><center>  
+<img src = "https://user-images.githubusercontent.com/50826051/83611356-d210b880-a5bb-11ea-933d-f27ae7df2c08.png">
+> 여성이 남성에 비해 생존 비율이 높음  
     
 #### 1.2 Pclass에 따른 생존비율  
 ```javascript
