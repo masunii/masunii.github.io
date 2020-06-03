@@ -41,7 +41,7 @@ bar_chart('Sex')
 ```javascript
 bar_chart("Pclass")
 ```  
-<center><img src = "https://user-images.githubusercontent.com/50826051/83612081-e0130900-a5bc-11ea-8184-09fce3a3f515.png"><center>  
+<img src = "https://user-images.githubusercontent.com/50826051/83612081-e0130900-a5bc-11ea-8184-09fce3a3f515.png">
   
 > Pclass가 높을수록 생존 비율이 높음  
 
@@ -50,7 +50,7 @@ bar_chart("Pclass")
 ```javascript
 bar_chart("SibSp")
 ```
-<center><img src = "https://user-images.githubusercontent.com/50826051/83612829-e8b80f00-a5bd-11ea-8dbe-9061ee277409.png"><center>  
+<img src = "https://user-images.githubusercontent.com/50826051/83612829-e8b80f00-a5bd-11ea-8dbe-9061ee277409.png">
   
 > 혼자 탑승한 경우 사망 비율이 높음. 그 외의 것은 판단 어려움  
   
@@ -59,7 +59,7 @@ bar_chart("SibSp")
 ```javascript
 bar_chart("Parch")
 ```  
-<center><img src = "https://user-images.githubusercontent.com/50826051/83613063-37fe3f80-a5be-11ea-98c4-cf8cbbabe276.png"><center>  
+<img src = "https://user-images.githubusercontent.com/50826051/83613063-37fe3f80-a5be-11ea-98c4-cf8cbbabe276.png">
   
 > SibSp와 비슷함 (혼자 탑승한 경우 사망 비율이 높음)  
 
@@ -68,7 +68,7 @@ bar_chart("Parch")
 ```javascript
 bar_chart("Embarked")
 ```  
-<center><img src = "https://user-images.githubusercontent.com/50826051/83613170-611ed000-a5be-11ea-9737-2392bce39456.png"><center>  
+<img src = "https://user-images.githubusercontent.com/50826051/83613170-611ed000-a5be-11ea-9737-2392bce39456.png"> 
   
 > S 선착장 탑승자가 많고, 사망 비율이 높음  
   
