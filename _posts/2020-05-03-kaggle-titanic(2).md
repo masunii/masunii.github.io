@@ -35,9 +35,6 @@ def bar_chart(feature):
 bar_chart('Sex')
 ```
 <center><img src = "https://user-images.githubusercontent.com/50826051/83611356-d210b880-a5bb-11ea-933d-f27ae7df2c08.png"><center>  
-  
->여성이 남성에 비해 생존 비율이 높음  
-    
     
 #### 1.2 Pclass에 따른 생존비율  
 ```javascript
@@ -52,6 +49,8 @@ bar_chart("Pclass")
 ```javascript
 bar_chart("SibSp")
 ```
+<center><img src = "https://user-images.githubusercontent.com/50826051/83612829-e8b80f00-a5bd-11ea-8dbe-9061ee277409.png"><center>  
+  
 > 혼자 탑승한 경우 사망 비율이 높음. 그 외의 것은 판단 어려움  
   
   
