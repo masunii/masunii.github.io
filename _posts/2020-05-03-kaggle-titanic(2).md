@@ -2,7 +2,7 @@
 title: "kaggle-titanic_(2)데이터 시각화"
 date: 2020-05-03 13:00
 categories: "STUDY"
-tags: "python", "kaggle"
+tags:
 #excerpt: "STUDY"
 comments: true
 ---
