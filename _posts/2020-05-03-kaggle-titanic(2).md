@@ -2,7 +2,7 @@
 title: "kaggle-titanic_(2)데이터 시각화"
 date: 2020-05-03 13:00
 categories: "STUDY"
-tags: 
+tags: "python", "kaggle"
 #excerpt: "STUDY"
 comments: true
 ---
@@ -38,6 +38,7 @@ bar_chart('Sex')
   
 >여성이 남성에 비해 생존 비율이 높음  
     
+    
 #### 1.2 Pclass에 따른 생존비율  
 ```javascript
 bar_chart("Pclass")
@@ -45,6 +46,7 @@ bar_chart("Pclass")
 <center><img src = "https://user-images.githubusercontent.com/50826051/83612081-e0130900-a5bc-11ea-8184-09fce3a3f515.png"><center>  
   
 > Pclass가 높을수록 생존 비율이 높음  
+
 
 #### 1.3 함께 탑승한 형제/자매 및 배우자 인원 수에 따른 생존비율  
 ```javascript
@@ -54,6 +56,7 @@ bar_chart("SibSp")
   
 > 혼자 탑승한 경우 사망 비율이 높음. 그 외의 것은 판단 어려움  
   
+  
 #### 1.4 함께 탑승한 부모, 자식 인원 수에 다른 생존비율  
 ```javascript
 bar_chart("Parch")
@@ -61,6 +64,7 @@ bar_chart("Parch")
 <center><img src = "https://user-images.githubusercontent.com/50826051/83613063-37fe3f80-a5be-11ea-98c4-cf8cbbabe276.png"><center>  
   
 > SibSp와 비슷함 (혼자 탑승한 경우 사망 비율이 높음)  
+
 
 #### 1.5 선착장 위치에 따른 생존비율  
 ```javascript
