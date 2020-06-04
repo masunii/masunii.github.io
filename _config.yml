@@ -94,7 +94,7 @@ analytics:
 # Site Author
 author:
   name             : "KYEONGAH MA"
-  avatar           : #"/P20170921_011006000_A4B7B88F-54FE-4EF3-8516-1635B91C5159.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/P20170921_011006000_A4B7B88F-54FE-4EF3-8516-1635B91C5159.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an **amazing** person."
   location         : "SEOUL, SOUTH KOREA"
   email            : mka31053@gmail.com
