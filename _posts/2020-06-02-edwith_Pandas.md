@@ -1,12 +1,12 @@
 ---
-title: "edwith[python]Pandas"
+title: "edwith[python](2)Pandas"
 date: 2020-06-02
 categories: "STUDY"
 comments: TRUE
 ---
 
 edwith 부스트코스 [파이썬으로 시작하는 데이터 사이언스](https://www.edwith.org/boostcourse-ds-510/joinLectures/28137) 를 공부하는 과정입니다.  
-지난 포스트 :point_right: [edwith_분석환경 구성 & 파이썬 기초 문법](https://masunii.github.io/study/edwith_%EB%B6%84%EC%84%9D%ED%99%98%EA%B2%BD%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0/)
+지난 포스트 :point_right: [edwith[python](1)분석환경 구성 & 파이썬 기초 문법](https://masunii.github.io/study/edwith_%EB%B6%84%EC%84%9D%ED%99%98%EA%B2%BD%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0/)
   
   --------------------------------------------------------
   
@@ -96,4 +96,4 @@ df_1.plot.bar()
 %pwd
 ```  
 
-다음 포스트 :point_right: [edwith[python]데이터 살펴보기](https://masunii.github.io/study/edwith_%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%83%81%EA%B6%8C%EB%B6%84%EC%84%9D(1)/)
+다음 포스트 :point_right: [edwith[python](3)데이터 살펴보기](https://masunii.github.io/study/edwith_%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%83%81%EA%B6%8C%EB%B6%84%EC%84%9D(1)/)
