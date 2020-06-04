@@ -1,5 +1,5 @@
 ---
-title: "edwith[python](2)Pandas"
+title: "edwith_python_Pandas"
 date: 2020-06-02
 categories: "STUDY"
 comments: TRUE
@@ -96,4 +96,4 @@ df_1.plot.bar()
 %pwd
 ```  
 
-다음 포스트 :point_right: [edwith[python](3)데이터 살펴보기](https://masunii.github.io/study/edwith_%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%83%81%EA%B6%8C%EB%B6%84%EC%84%9D(1)/)
+다음 포스트 :point_right: [edwith_python_(1)데이터 살펴보기](https://masunii.github.io/study/edwith_%EA%B3%B5%EA%B3%B5%EB%8D%B0%EC%9D%B4%ED%84%B0%EC%83%81%EA%B6%8C%EB%B6%84%EC%84%9D(1)/)
