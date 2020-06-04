@@ -6,7 +6,7 @@ comments: TRUE
 ---
 
 edwith 부스트코스 [파이썬으로 시작하는 데이터 사이언스](https://www.edwith.org/boostcourse-ds-510/joinLectures/28137) 를 공부하는 과정입니다.  
-지난 포스트 :point_right: [edwith[python](1)분석환경 구성 & 파이썬 기초 문법](https://masunii.github.io/study/edwith_%EB%B6%84%EC%84%9D%ED%99%98%EA%B2%BD%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0/)
+지난 포스트 :point_right: [edwith_python_분석환경 구성 & 파이썬 기초 문법](https://masunii.github.io/study/edwith_%EB%B6%84%EC%84%9D%ED%99%98%EA%B2%BD%EA%B5%AC%EC%84%B1%ED%95%98%EA%B8%B0/)
   
   --------------------------------------------------------
   
