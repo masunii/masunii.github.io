@@ -1,7 +1,7 @@
 ---
 title: "github 블로그_메뉴 바 상단에 고정하기"
 date: 2020-06-05 10:00:00
-categories: "#BLOG_CUSTOM"
+categories: "BLOG_CUSTOM"
 tags:
 #excerpt:
 comments: TRUE
@@ -56,4 +56,8 @@ minimal mistakes theme에서 블로그 상단에 위치한 navigation bar(메뉴
 <img src = "https://user-images.githubusercontent.com/50826051/83830723-cbe81c80-a720-11ea-8047-665082eb8967.png" width = "50%">
 
 ------------------------------------------------------------------------------------------------
-참고 사이트: [How to make sticky header](https://github.com/mmistakes/minimal-mistakes/issues/490)
+참고 사이트: [How to make sticky header](https://github.com/mmistakes/minimal-mistakes/issues/490)  
+
+:exclamation:  
+데스크톱 화면에서는 위 방법으로 설정한 layout이 보기 좋은데, 모바일 뷰 layout이 깨져버린다. ㅜㅜ  
+해결해보려고 했으나, 아직 방법을 몰라서 메뉴 바 고정을 풀어두었다. 나중에 해결되면 다시 설정해보는 걸로.. (혹시 아시는 분은 알려주세요 :pray:)  
