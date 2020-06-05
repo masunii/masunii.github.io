@@ -1,11 +1,10 @@
-docs:
-  - title: CATEGORIES
-    children:
-      - title: "STUDY"
-        url: /STUDY/
-        - title: "BLOG_CUSTOM"
-        url: /BLOG_CUSTOM/
-   - title: DIARY
-    children:
-      - title: "DIARY"
-        url: /DIARY/
+# main links
+main:
+  #- title: "Quick-Start Guide"
+  #  url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "CATEGORIES"
+    url: /categories/
+  #- title: "STUDY"
+  #  url: /STUDY/
+  #- title: "DIARY"
+  #  url: /DIARY/
