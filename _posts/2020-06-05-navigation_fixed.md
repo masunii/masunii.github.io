@@ -1,7 +1,7 @@
 ---
 title: "github 블로그_메뉴 바 상단에 고정하기"
 date: 2020-06-05 10:00:00
-categories: "BLOG_CUSTOM"
+categories: "#BLOG_CUSTOM"
 tags:
 #excerpt:
 comments: TRUE
