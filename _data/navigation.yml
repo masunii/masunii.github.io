@@ -6,9 +6,9 @@ main:
   #- title: "CATEGORIES"
   #  url: /CATEGORIES/
   - title: "STUDY"
-    url: /CATEGORIES/STUDY/
+    url: /STUDY/
   - title: "DIARY"
-    url: /CATEGORIES/DIARY/
+    url: /DIARY/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
