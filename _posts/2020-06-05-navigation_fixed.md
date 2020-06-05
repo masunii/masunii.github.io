@@ -56,4 +56,4 @@ minimal mistakes theme에서 블로그 상단에 위치한 navigation bar(메뉴
 <img src = "https://user-images.githubusercontent.com/50826051/83830723-cbe81c80-a720-11ea-8047-665082eb8967.png" width = "50%">
 
 ------------------------------------------------------------------------------------------------
-참고 사이트:  [https://github.com/mmistakes/minimal-mistakes/issues/490]
+참고 사이트:  (https://github.com/mmistakes/minimal-mistakes/issues/490)
