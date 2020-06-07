@@ -1,5 +1,5 @@
 ---
-title: "kaggle-titanic_(1)데이터 로드 및 살펴보기"
+title: "kaggle_titanic_(1)데이터 로드 및 살펴보기"
 date: 2020-05-03
 categories: "STUDY"
 tags: 
