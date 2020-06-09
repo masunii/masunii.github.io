@@ -32,7 +32,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.naive_bayes import GaussianNB
 from sklearn.svm import SVC
-
+```
 ##### numpy 불러오기
 ```javascript
 import numpy as np
