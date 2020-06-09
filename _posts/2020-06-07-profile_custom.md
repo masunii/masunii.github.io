@@ -22,7 +22,7 @@ minimal mistakes theme의 `config.yml`에서 아바타 이미지를 넣으면 �
 `border-radius:` 를 자신이 원하는 숫자로 변경한다. 숫자에 따라 모양이 바뀌는데 아래의 사이트에 들어가서 숫자를 변경해보며 시뮬레이션을 통해 원하는 모양을 찾으면 된다.  
 [사이트 링크](https://developer.mozilla.org/ko/docs/Web/CSS/border-radius)
 
-<center><img src = "https://user-images.githubusercontent.com/50826051/83965315-ce4ba180-a8ed-11ea-95f4-69b66d4cf567.png" width="60%"<center>
+<center><img src = "https://user-images.githubusercontent.com/50826051/83965315-ce4ba180-a8ed-11ea-95f4-69b66d4cf567.png" width="60%"><center>
 
 
 (2) 테두리 없애기  
