@@ -44,7 +44,7 @@ from sklearn.model_selection import cross_val_score
 k_fold = KFold(n_splits=10, shuffle=True, random_state=0)
 ```
 
-#### 1. Cross Validation (K-fold)
+#### Cross Validation (K-fold)
 
 ##### kNN  
 ```javascript
@@ -72,12 +72,14 @@ score = cross_val_score(clf, train_data, target, cv=k_fold, n_jobs=1, scoring=sc
 print(score)
 ```
 
-`*결과*`  
-```
-
 ##### decision tree score
 ```javascript
 round(np.mean(score)*100, 2)
+```
+
+`*결과*`  
+```
+82.27
 ```
 
 #### Random Forest
