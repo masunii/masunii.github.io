@@ -28,10 +28,10 @@ minimal mistakes theme의 `config.yml`에서 아바타 이미지를 넣으면 �
 (2) 테두리 없애기  
 `padding: 0 px` 로 변경한다. 이 부분도 사실 본인의 기호에 맞게 숫자로 조절하여 테두리의 굵기를 정하면 된다.
 
-최종 변경한 모습:point_down:  
+최종 수정한 모습:point_down:  
 <img src = "https://user-images.githubusercontent.com/50826051/83965393-75c8d400-a8ee-11ea-89c8-747ab8a8c694.png">
 
 이렇게 하고나면 아래와 같이 프로필의 아바타 이미지 모양이 변경된 것을 확인할 수 있다.:sparkles:  
-<img src = "https://user-images.githubusercontent.com/50826051/83965164-94c66680-a8ec-11ea-85c6-37a65b599f18.png" width="25%">
+<img src = "https://user-images.githubusercontent.com/50826051/83965164-94c66680-a8ec-11ea-85c6-37a65b599f18.png" width="25%">  
 
 * 테두리를 없애니 속이 후련하다 ^^ 
