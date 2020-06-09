@@ -288,7 +288,7 @@ df.plot(kind='bar', stacked=True, figsize=(10,5))
 
 `*결과*`  
 <img src = "https://user-images.githubusercontent.com/50826051/84150132-65565c00-aa9c-11ea-849b-15f0641cf398.png">  
-> C, B, A: 1st Class에만 해당
+> C, B, A: 1st Class에만 해당  
 G: 3rd Class에만 해당
 
 ##### 문자 Value를 숫자로 맵핑하기  
@@ -297,10 +297,10 @@ cabin_mapping = {'A': 0, 'B': 0.4, 'C': 0.8, 'D': 1.2, 'E': 1.6, 'F': 2.0, 'G': 
 for dataset in train_test_data:
   dataset['Cabin'] = dataset['Cabin'].map(cabin_mapping)
 ```  
-> 소수점으로 맵핑한 이유: 다른 feature들과의 전체 gap 정도를 맞추기 위해서.
-#예를들어, sex는 0,1 두 가지로만 구분되어, gap이 1-0=1인데, Cabin은 8가지로 구분되어 0,1,2,...7이 되면, gap이 7-0=7이 됨.
-#이렇게되면 머싱러닝 시 정상적으로 비교되지 않을 수 있음.
-#Title이 0부터 3까지이므로, 이에 근사하게 0.4 간격으로 0부터 2.8까지 맵핑하기로 한다.
+> 소수점으로 맵핑한 이유: 다른 feature들과의 전체 gap 정도를 맞추기 위해서.  
+#예를들어, sex는 0,1 두 가지로만 구분되어, gap이 1-0=1인데, Cabin은 8가지로 구분되어 0,1,2,...7이 되면, gap이 7-0=7이 됨.  
+#이렇게되면 머싱러닝 시 정상적으로 비교되지 않을 수 있음.  
+#Title이 0부터 3까지이므로, 이에 근사하게 0.4 간격으로 0부터 2.8까지 맵핑하기로 한다.  
 
 ```javascript
 bar_chart('Cabin')
@@ -360,4 +360,4 @@ train_data.shape, target.shape
 ```
 
 
-다음 포스팅에는 머신러닝 모델링 과정을 올려 보겠다.
+다음 포스트:point_right: [(4)Machine Learning Modelling](https://masunii.github.io/study/kaggle-titanic(4)/)
