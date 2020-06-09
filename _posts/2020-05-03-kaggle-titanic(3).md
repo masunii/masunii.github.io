@@ -246,6 +246,7 @@ train[['Fareband','Survived']].groupby('Fareband').mean().sort_values(by='Surviv
 ```
 
 `*결과*`  
+
 |        Fareband | Survived |   |
 |----------------:|---------:|---|
 | (31.0, 512.329] | 0.581081 |   |
