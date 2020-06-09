@@ -73,4 +73,4 @@ bar_chart("Embarked")
 > S 선착장 탑승자가 많고, 사망 비율이 높음  
   
   
-다음 포스팅에는 Feature Engineering한 과정을 올려 보겠다.
+다음 포스트:point_right: [(3)Feature Engineering](https://masunii.github.io/study/kaggle-titanic(3)/)
