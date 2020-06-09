@@ -1,5 +1,5 @@
 ---
-title: "kaggle_titanic_(3)Feature 엔지니어링"
+title: "kaggle_titanic_(3)Feature Engineering"
 date: 2020-05-03 15:00
 categories: "STUDY"
 tags:
@@ -146,7 +146,7 @@ train[['AgeBand', 'Survived']].groupby('AgeBand', as_index=False).mean().sort_va
 | 4 |   (64.084, 80.0] | 0.090909 |  
 
 
-#### 연령대를 그룹화하여 맵핑하기
+##### 연령대를 그룹화하여 맵핑하기
 ```javascript
 for dataset in train_test_data:
   dataset.loc[dataset['Age'] <= 16, 'Age'] = 0
@@ -181,7 +181,7 @@ df.plot(kind='bar', stacked=True, figsize=(10,5))
 > Q 선착장에서 탑승한 사람은 거의 3rd class만 구매  
 S 선착장에서 탑승한 사람이 전체 승객의 과반수 이상으로 보임. 'Embarked' cloumn에 NaN 값이 있다면 S로 입력해도 될 것 같음.  
 
-#####'Embarked' 컬럼의의 NaN 값을 'S'로 입력하자
+##### 'Embarked' 컬럼의 NaN 값을 'S'로 변환
 ```javascript
 for dataset in train_test_data:
   dataset['Embarked'] = dataset['Embarked'].fillna('S')
@@ -299,7 +299,7 @@ for dataset in train_test_data:
 > 소수점으로 맵핑한 이유: 다른 feature들과의 전체 gap 정도를 맞추기 위해서.
 #예를들어, sex는 0,1 두 가지로만 구분되어, gap이 1-0=1인데, Cabin은 8가지로 구분되어 0,1,2,...7이 되면, gap이 7-0=7이 됨.
 #이렇게되면 머싱러닝 시 정상적으로 비교되지 않을 수 있음.
-#Title이 0~3 까지이므로, 이에 근사하게 0.4 간격으로 0~2.8까지 맵핑하기로 한다.
+#Title이 0부터 3까지이므로, 이에 근사하게 0.4 간격으로 0부터 2.8까지 맵핑하기로 한다.
 
 ```javascript
 bar_chart('Cabin')
