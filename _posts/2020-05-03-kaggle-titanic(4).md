@@ -1,5 +1,5 @@
 ---
-title: "kaggle_titanic_(4)Machine learning Modelling"
+title: "kaggle_titanic_(4)Machine earning Modelling"
 date: 2020-05-03 17:00
 categories: "STUDY"
 tags:
