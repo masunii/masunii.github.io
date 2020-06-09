@@ -46,7 +46,7 @@ minimal mistakes theme에서 블로그 상단에 위치한 navigation bar(메뉴
 
 (1) `padding: 70px;` 로 변경한다. 
 
-최종 변경한 모습 :point_down:
+최종 수정한 모습 :point_down:
 
 <img src = "https://user-images.githubusercontent.com/50826051/83831936-677a8c80-a723-11ea-854b-b4c8e4c49256.png">
 
