@@ -7,7 +7,7 @@ tags:
 comments: true
 ---
 
-지난 포스트:point_right: [(1)데이터 로드 및 살펴보기](https://masunii.github.io/study/kaggle-titanic(1)/)
+지난 포스트:point_right: [kaggle_titanic_(1)데이터 로드 및 살펴보기](https://masunii.github.io/study/kaggle-titanic(1)/)
 
 ------------------------------------------------------------------------------
 ### 데이터 시각화
@@ -73,4 +73,4 @@ bar_chart("Embarked")
 > S 선착장 탑승자가 많고, 사망 비율이 높음  
   
   
-다음 포스트:point_right: [(3)Feature Engineering](https://masunii.github.io/study/kaggle-titanic(3)/)
+다음 포스트:point_right: [kaggle_titanic_(3)Feature Engineering](https://masunii.github.io/study/kaggle-titanic(3)/)
