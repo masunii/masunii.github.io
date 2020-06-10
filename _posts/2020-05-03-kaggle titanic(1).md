@@ -15,7 +15,7 @@ comments: true
 python은 기본 문법만 조금 공부해봤는데, 문법으로만 공부를 하니 자꾸 까먹어서 비효율적이라는 생각이 들었다.  
 kaggle- titanic 문제로 공부를 한다면, 배경 상황을 통한 '문제 정의'부터 '어떤 문제를 해결하기 위해 어떤 문법을 사용할 수 있는 지' 등 데이터 분석 시 고민해봐야할 부분들도 경험해볼 수 있을 것 같았다.  
 
-한국인이 제작한 좋은 [유튜브 walkthrough 영상](https://www.youtube.com/watch?v=aqp_9HV58Ls)을 찾게되어 다시 찬찬히 따라해보았다.  
+한국인이 제작한 [유튜브 walkthrough 영상](https://www.youtube.com/watch?v=aqp_9HV58Ls)을 찾게되어 따라해보았다.  
 
 --------------------------------------------------------------------------------------------------------------------  
   
@@ -29,19 +29,19 @@ Ctrl + MB: 바로 아랫줄에 cell 생성
 Ctrl + MA: 바로 윗줄에 cell 생성  
 Ctrl + MD: cell 삭제
   
-### 분석할 DATA 살펴보기  
+### 분석할 DATA 살펴보기   
+##### 파이썬에서 사용하는 데이터분석 라이브러리인 Pandas와 numpy 불러오기
 ```javascript
-#파이썬에서 사용하는 데이터분석 라이브러리인 Pandas와 numpy 불러오기
 import pandas as pd
 import numpy as np
 ```
+##### 구글 드라이브 마운트
 ```javascript
-#구글 드라이브에 저장된 데이터 연결하기
 from google.colab import drive
 drive.mount('/content/gdrive')
 ```
+###### 분석할 data 불러오기
 ```javascript
-#data 불러오기
 train = pd.read_csv("gdrive/My Drive/colab/titanic/train.csv")
 train.head()
 ```
@@ -62,17 +62,12 @@ Cabin: cabin number
 Embarked: Port of embarkation  C: Cherbourg, S: Southampton, Q: Queenstown  
 NaN: Not a number. 표현 불가능한 수치형 결과. 머신러닝 데이터로 사용하기 위해서는 평균값을 넣거나 삭제 필요
 ```
-
+##### train 데이터 정보 출력
 ```javascript
-#train 데이터의 행,열 정보 출력
-train.shape
-```
-```javascript
-#train 데이터 정보 출력
 train.info()
 ```
+`*결과*`
 ```
-**결과**
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 891 entries, 0 to 890
 Data columns (total 12 columns):
@@ -96,12 +91,12 @@ memory usage: 83.7+ KB
 >891명의 승객정보가 있음을 확인.
 Age, Cabin, Embarked에 유실된 값(NaN)이 있는 것을 확인할 수 있다. 머신러닝 전에 전처리 필요.
 
+##### train 데이터의 결측치 개수 출력
 ```javascript
-#train 데이터의 결측치 개수 출력
 train.isnull().sum()
 ```
+`*결과*`
 ```
-**결과**
 PassengerId      0
 Survived         0
 Pclass           0
@@ -118,14 +113,12 @@ dtype: int64
 ```
 
 test 데이터도 train 데이터와 동일하게 행,열 정보 및 결측치 개수를 파악
-```javascript
-test.shape
-```
+
 ```javascript
 test.info()
 ```
+`*결과*`
 ```
-**결과**
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 418 entries, 0 to 417
 Data columns (total 11 columns):
@@ -149,8 +142,8 @@ memory usage: 36.0+ KB
 ```javascript
 test.isnull().sum()
 ```
+`*결과*`
 ```
-**결과**
 PassengerId      0
 Pclass           0
 Name             0
@@ -166,4 +159,4 @@ dtype: int64
 ```
 >Age, Fare, Cabin에 결측값이 있는 것 확인  
 
-다음 포스팅에는 데이터 시각화를 올려 보겠다.
+다음 포스트:point_right: [kaggle_titanic_(2)데이터 시각화](https://masunii.github.io/study/kaggle-titanic(2)/)
