@@ -27,7 +27,7 @@ minimal mistakes theme의 `config.yml`에서 아바타 이미지를 넣으면 �
 
 (2) 테두리 없애기  
 
-`padding: 0 px` 로 변경한다. 이 부분도 사실 본인의 기호에 맞게 숫자로 조절하여 테두리의 굵기를 정하면 된다.
+`padding: 0 px` 로 변경한다. 이 부분도 사실 본인의 기호에 맞게 숫자로 조절하여 테두리의 굵기를 정하면 된다.  
 
 최종 수정한 모습:point_down:  
 <img src = "https://user-images.githubusercontent.com/50826051/83965393-75c8d400-a8ee-11ea-89c8-747ab8a8c694.png">
