@@ -1,25 +1,36 @@
-<html>
-  <head>
-    <!-- jquery 불러오기 -->
-    <script
-    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-    crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <!-- 검색 상자 -->
-    <form id="searchform" class="searchbox" action="#">
-      <input id="searchtext" name="searchtext" type="text" placeholder="Search...">
-    </form>
-    <!-- 검색어 submit 이벤트 처리 -->
-    <script>
-      $(document).ready(function(){
-        $("#searchform").on("submit", function(e){
-          e.preventDefault();
-          var url = encodeURIComponent($("#searchtext").val());
-          location.href = "./result.html?q=" + url;
-        });
-      });
-    </script>
-  </body>
-</html>
+---
+layout: default
+page_title: Search
+permalink: /search/
+---
+
+<div id="results">
+ <h1><!-- `key` listing for `value` --></h1>
+
+ <ul class="results">
+  <!-- results lists -->
+ </ul>
+</div>
+
+<!- Html Elements for Search -->
+<div id="search-container">
+<input type="test" id="search-input" placeholder="search...">
+<ul id="results-container"></u1>
+</div>
+
+<!-- Script pointing to jekyll-serach.js -->
+<script src = "/dest/jekyll-search.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+     SimpleJekyllSearch({
+      searchInput: document.getElementById('search-input'),
+      resultsContainer: document.getElementById('results-container'),
+      json: '/search.json',
+      searchResultTemplate: '<li><a href="{url}" title="{desc}">{title}</a></li>
+      noResultsText: 'No results found',
+      limit: 10,
+      fuzzy: false,
+      exclude: ['Welcome']
+     })
+</script>
