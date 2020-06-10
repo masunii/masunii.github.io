@@ -7,7 +7,7 @@ tags:
 comments: true
 ---
 
-지난 포스트:point_right: [(4)Machine Learning Modelling](https://masunii.github.io/study/kaggle-titanic(4)/)
+지난 포스트:point_right: [kaggle_titanic_(4)Machine Learning Modelling](https://masunii.github.io/study/kaggle-titanic(4)/)
 
 ------------------------------------------------------------------------------
 kaggle 제출 완료!  
@@ -16,4 +16,4 @@ kaggle 제출 완료!
 
 처음에 kaggle에서 제공하는 튜토리얼만 보고 제출했었었는데, 그 때보다 예측도가 올랐다!  
 
-동영상을 보면서 따라한 수준이라 완전히 이해했다고는 할 수 없지만, 이와 비슷한 과제가 생긴다면 응용해서 해볼 수 있을 것 같다.  
+동영상을 보면서 따라하여 완전히 이해했다고는 할 수 없지만, 이와 비슷한 과제가 생긴다면 응용해서 해볼 수 있을 것 같다.  
