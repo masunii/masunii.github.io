@@ -7,7 +7,7 @@ tags:
 comments: true
 ---
 
-지난 포스트:point_right: [(2)데이터 시각화](https://masunii.github.io/study/kaggle-titanic(2)/)
+지난 포스트:point_right: [kaggle_titanic_(2)데이터 시각화](https://masunii.github.io/study/kaggle-titanic(2)/)
 
 ------------------------------------------------------------------------------
 ### Feature Engineering  
@@ -360,4 +360,4 @@ train_data.shape, target.shape
 ```
 
 
-다음 포스트:point_right: [(4)Machine Learning Modelling](https://masunii.github.io/study/kaggle-titanic(4)/)
+다음 포스트:point_right: [kaggle_titanic_(4)Machine Learning Modelling](https://masunii.github.io/study/kaggle-titanic(4)/)
