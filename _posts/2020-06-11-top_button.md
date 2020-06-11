@@ -38,7 +38,7 @@ colab 노트북으로 공부한 내용을 기록하다보니, 포스트의 길�
 ```
 
 
-(2) `_layouts/default.html` 로 들어가서 아래의 footer 내용을 찾는다.
+(2) `_layouts/default.html` 로 들어가서 아래의 footer 내용을 찾는다.  
 ```
  <div id="footer" class="page__footer">
       <footer>
@@ -46,9 +46,9 @@ colab 노트북으로 공부한 내용을 기록하다보니, 포스트의 길�
         {% include_cached footer.html %}
       </footer>
     </div>
+```  
 
-```
-footer 내용 윗부분에, 다음의 내용을 삽입한다. 
+footer 내용 윗부분에, 다음의 내용을 삽입한다.  
 ```
 <aside class="sidebar__top">
 <a href="#site-nav"> <i class="fas fa-angle-double-up fa-2x"></i></a>
