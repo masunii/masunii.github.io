@@ -10,8 +10,6 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-header:
-  image: /assets/images/titanic_ranking.JPG
 
 
 # theme                  : "minimal-mistakes-jekyll"
