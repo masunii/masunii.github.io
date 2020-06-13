@@ -50,7 +50,7 @@ plt.rc("axes", unicode_minus=False)
 
 ## 3. 데이터 불러오기
 
-이번 포스트부터는 공공 데이터 포털의 2014 1/4분기 ~ 2019 4/4 분기까지의 데이터 활용! [다운로드 받기] (http://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1KE10081&vw_cd=MT_ZTITLE&list_id=JF&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
+이번 포스트부터는 공공 데이터 포털의 2014 1/4분기 ~ 2019 4/4 분기까지의 데이터 활용! [다운로드 받기](http://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=DT_1KE10081&vw_cd=MT_ZTITLE&list_id=JF&seqNo=&lang_mode=ko&language=kor&obj_var_id=&itm_id=&conn_path=MT_ZTITLE)
 
 ##### 구글 드라이브 마운트
 ```javascript
@@ -59,7 +59,7 @@ drive.mount('/content/drive')
 ```
 
 ##### 분석할 데이터를 df_raw 변수로 지정하여 불러오기
-javascript
+```javascript
 df_raw = pd.read_csv("/content/drive/My Drive/colab/edwith_study/온라인쇼핑_해외직접판매액.csv", encoding="cp949")
 ```
 
