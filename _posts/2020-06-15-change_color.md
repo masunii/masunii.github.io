@@ -14,14 +14,13 @@ minimal mistakes theme의 contrast 에서 메뉴 바의 밑줄 색상을 변경�
 minimal mistakes의 contrast를 적용했을 때 기본적인 강조색은 빨~간 색이다.  
 메뉴바 호버 시 나타나는 밑줄 색이나,   
 
-<center><img src = "https://user-images.githubusercontent.com/50826051/84619949-9954d580-af11-11ea-9630-ab15e2757a6a.png" width="80%"><center>
+<img src = "https://user-images.githubusercontent.com/50826051/84619949-9954d580-af11-11ea-9630-ab15e2757a6a.png" width="80%">
 
 .  
 .  
 toc의 색상, 인용구 표시 등이 그렇다.   
 
-<center><img src = "https://user-images.githubusercontent.com/50826051/84620038-dc16ad80-af11-11ea-8f03-1cf8f1b2c7be.png" width="80%"><center>
-
+<img src = "https://user-images.githubusercontent.com/50826051/84620038-dc16ad80-af11-11ea-8f03-1cf8f1b2c7be.png" width="80%">
 
 포인트 강조 역할을 매우 충실히 수행하고 있는데, 나는 좀 더 눈이 편한 색상을 적용하고 싶어서 이를 변경하게 되었다.  
 방법은 아주 간단하다!!  
@@ -42,9 +41,9 @@ toc의 색상, 인용구 표시 등이 그렇다.
 
 이렇게 수정을 하고 나면, 아래와 같이 변경된 것을 확인할 수 있다. :sparkles:    
 
-<center><img src = "https://user-images.githubusercontent.com/50826051/84620835-fce00280-af13-11ea-99f6-b7175998e3bd.png" width="80%"><center>  
+<img src = "https://user-images.githubusercontent.com/50826051/84620835-fce00280-af13-11ea-99f6-b7175998e3bd.png" width="80%">
 
 .  
 .  
 
-<center><img src = "https://user-images.githubusercontent.com/50826051/84620933-403a7100-af14-11ea-909c-f3bd8ccfa1e8.png"><center>  
+<img src = "https://user-images.githubusercontent.com/50826051/84620933-403a7100-af14-11ea-909c-f3bd8ccfa1e8.png">
