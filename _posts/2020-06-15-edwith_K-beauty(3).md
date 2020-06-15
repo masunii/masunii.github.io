@@ -1,5 +1,5 @@
 ---
-title: "edwith_python_(14)판매 데이터 시각화하기"
+title: "edwith_python_(14)lineplot으로 판매 데이터 시각화하기"
 date: 2020-06-15 10:00:00
 categories: "STUDY"
 comments: TRUE
