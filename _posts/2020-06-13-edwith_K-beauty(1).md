@@ -146,18 +146,8 @@ df.head()
 | 3 |         합계 | 컴퓨터 및 주변기기 |          계 | 2014 1/4 |   4915 |
 | 4 |         합계 | 컴퓨터 및 주변기기 |      면세점 | 2014 1/4 |      - |  
 
-> id_vars: 그대로 유지할 열
+> id_vars: 그대로 유지할 열  
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.  
+.  
+다음 포스트 :point_right: [edwith_python_(13)데이터 전처리하기](https://masunii.github.io/study/edwith_K-beauty(2)/)  
