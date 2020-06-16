@@ -197,4 +197,4 @@ sns.lineplot(data=df_fashion2, x="기간", y="백만원", hue="판매유형별",
 
 .  
 .
-다음 포스트 :point_right: [edwith_python_(15)pivot_table, heatmap, lineplot으로 데이터 시각화하기](https://masunii.github.io/study/edwith_K-beauty(4)/) 
+다음 포스트 :point_right: [edwith_python_(15)pivot_table, heatmap, lineplot으로 판매 데이터 시각화하기](https://masunii.github.io/study/edwith_K-beauty(4)/) 
