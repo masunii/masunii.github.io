@@ -104,4 +104,9 @@ df.isnull().sum()
 연도            0
 분기            0
 dtype: int64
-```
+```  
+
+.  
+.
+다음 포스트 :point_right: [edwith_python_(14)lineplot으로 판매 데이터 시각화하기](https://masunii.github.io/study/edwith_K-beauty(3)/) 
+
