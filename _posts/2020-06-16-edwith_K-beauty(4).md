@@ -1,5 +1,5 @@
 ---
-title: "edwith_python_(15)"
+title: "edwith_python_(15)pivot_table, heatmap, lineplot으로 데이터 시각화하기"
 date: 2020-06-16 10:00:00
 categories: "STUDY"
 comments: TRUE
