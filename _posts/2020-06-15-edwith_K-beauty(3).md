@@ -194,6 +194,7 @@ sns.lineplot(data=df_fashion2, x="기간", y="백만원", hue="판매유형별",
 <img src = "https://user-images.githubusercontent.com/50826051/84618909-87256800-af0e-11ea-89e2-31f69b802695.png" width="50%">  
 
 > 면세점 판매액보다 면세점 이외 판매액이 대체로 높았으나, 최근에는 면세점 판매액이 면세점 이회 판매액과 비슷한 규모로 성장함  
+
 .  
 .
 다음 포스트 :point_right: [edwith_python_(15)pivot_table, heatmap, lineplot으로 데이터 시각화하기](https://masunii.github.io/study/edwith_K-beauty(4)/) 
