@@ -25,6 +25,28 @@
         {% include_cached search/search_form.html %}
       </div>
     {% endif %}
+    
+   {% if site.subscribers %}
+        <div id="subscribe" class="subscribe-overlay">
+            <a class="subscribe-overlay-close" href="#"></a>
+            <div class="subscribe-overlay-content">
+                {% if site.logo %}
+                    <img class="subscribe-overlay-logo" 
+                         src="{{ site.baseurl }}{{ site.logo }}" 
+                         alt="{{ site.title }}" />
+                {% endif %}
+                <h1 class="subscribe-overlay-title">Search {{ site.title }}</h1>
+                <p class="subscribe-overlay-description">
+                lunr.js를 이용한 posts 검색 </p>
+                {% include subscribe-form.html placeholder="keyword" %}
+            </div>
+        </div>
+{% endif %}
+    
+    
+    
+    
+    
     <aside class="sidebar__top">
     <a href="#site-nav"> <i class="fas fa-angle-double-up fa-2x"></i></a>
     </aside>
@@ -38,9 +60,7 @@
     {% include scripts.html %}
 
     
-
-    
-    
+ 
   </body>
 </html>
 
