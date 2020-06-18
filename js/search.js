@@ -40,9 +40,9 @@
     var idx = lunr(function () {
       this.field('id');
       this.field('title', { boost: 10 });
-   this.field('description');
-        this.field('url');
-        for (var key in window.store) { // Add the data to lnur
+      this.field('description');
+      this.field('url');
+      for (var key in window.store) { // Add the data to lnur
           this.add({
               'id': key,
               'title': window.store[key].title,
