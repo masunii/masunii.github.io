@@ -1,5 +1,5 @@
 ---
-title: "edwith 부스트 코스_프로젝트로 배우는 데이터 사이언스 프롤로그"
+title: "edwith 부스트 코스_프로젝트로 배우는 데이터 사이언스_프롤로그"
 date: 2020-06-19 12:00:00
 categories: "STUDY"
 tags:
