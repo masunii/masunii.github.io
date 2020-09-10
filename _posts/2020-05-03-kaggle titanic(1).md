@@ -31,21 +31,21 @@ Ctrl + MD: cell 삭제
   
 ### 분석할 DATA 살펴보기   
 ##### 파이썬에서 사용하는 데이터분석 라이브러리인 Pandas와 numpy 불러오기
-```javascript
+```python
 import pandas as pd
 import numpy as np
 ```
 ##### 구글 드라이브 마운트
-```javascript
+```python
 from google.colab import drive
 drive.mount('/content/gdrive')
 ```
 ###### 분석할 data 불러오기
-```javascript
+```python
 train = pd.read_csv("gdrive/My Drive/colab/titanic/train.csv")
 train.head()
 ```
-```javascript
+```python
 test = pd.read_csv("gdrive/My Drive/colab/titanic/test.csv")
 test.head()
 ```
@@ -63,7 +63,7 @@ Embarked: Port of embarkation  C: Cherbourg, S: Southampton, Q: Queenstown
 NaN: Not a number. 표현 불가능한 수치형 결과. 머신러닝 데이터로 사용하기 위해서는 평균값을 넣거나 삭제 필요
 ```
 ##### train 데이터 정보 출력
-```javascript
+```python
 train.info()
 ```
 `*결과*`
@@ -92,7 +92,7 @@ memory usage: 83.7+ KB
 Age, Cabin, Embarked에 유실된 값(NaN)이 있는 것을 확인할 수 있다. 머신러닝 전에 전처리 필요.
 
 ##### train 데이터의 결측치 개수 출력
-```javascript
+```python
 train.isnull().sum()
 ```
 `*결과*`
@@ -114,7 +114,7 @@ dtype: int64
 
 test 데이터도 train 데이터와 동일하게 행,열 정보 및 결측치 개수를 파악
 
-```javascript
+```python
 test.info()
 ```
 `*결과*`
@@ -139,7 +139,7 @@ dtypes: float64(2), int64(4), object(5)
 memory usage: 36.0+ KB
 ```
 
-```javascript
+```python
 test.isnull().sum()
 ```
 `*결과*`
