@@ -11,7 +11,7 @@ comments: true
 
 ------------------------------------------------------------------------------
 ### 데이터 시각화
-```javascript
+```python
 #데이터 시각화에 필요한 library 불러오기
 import matplotlib.pyplot as plt
 %matplotlib inline
@@ -19,7 +19,7 @@ import seaborn as sns
 sns.set() #setting seaborn default for plots
 ```
 
-```javascript
+```python
 #bar 그래프 그리기
 #feature: 변수
 def bar_chart(feature):
@@ -31,14 +31,14 @@ def bar_chart(feature):
 ```
   
 #### 1.1 성별에 따른 생존비율  
-```javascript
+```python
 bar_chart('Sex')
 ```
 <img src = "https://user-images.githubusercontent.com/50826051/83611356-d210b880-a5bb-11ea-933d-f27ae7df2c08.png">
 > 여성이 남성에 비해 생존 비율이 높음  
     
 #### 1.2 Pclass에 따른 생존비율  
-```javascript
+```python
 bar_chart("Pclass")
 ```  
 <img src = "https://user-images.githubusercontent.com/50826051/83612081-e0130900-a5bc-11ea-8184-09fce3a3f515.png">
@@ -47,7 +47,7 @@ bar_chart("Pclass")
 
 
 #### 1.3 함께 탑승한 형제/자매 및 배우자 인원 수에 따른 생존비율  
-```javascript
+```python
 bar_chart("SibSp")
 ```
 <img src = "https://user-images.githubusercontent.com/50826051/83612829-e8b80f00-a5bd-11ea-8dbe-9061ee277409.png">
@@ -56,7 +56,7 @@ bar_chart("SibSp")
   
   
 #### 1.4 함께 탑승한 부모, 자식 인원 수에 다른 생존비율  
-```javascript
+```python
 bar_chart("Parch")
 ```  
 <img src = "https://user-images.githubusercontent.com/50826051/83613063-37fe3f80-a5be-11ea-98c4-cf8cbbabe276.png">
@@ -65,7 +65,7 @@ bar_chart("Parch")
 
 
 #### 1.5 선착장 위치에 따른 생존비율  
-```javascript
+```python
 bar_chart("Embarked")
 ```  
 <img src = "https://user-images.githubusercontent.com/50826051/83613170-611ed000-a5be-11ea-9737-2392bce39456.png"> 
