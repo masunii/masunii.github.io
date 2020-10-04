@@ -5,6 +5,7 @@ categories: "STUDY"
 tags:
 #excerpt: "STUDY"
 comments: true
+published: false
 ---
 
 지난 포스트:point_right: [kaggle_titanic_(1)데이터 로드 및 살펴보기](https://masunii.github.io/study/kaggle-titanic(1)/)
