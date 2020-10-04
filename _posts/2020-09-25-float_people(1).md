@@ -223,7 +223,7 @@ sns.lineplot(x='일자', y='유동인구수', data=raw20, hue='군구')
 ```
   
 `*결과*`  
-<img src = "https://user-images.githubusercontent.com/50826051/95011303-a2a5b180-066a-11eb-8ec1-a7261efd4ca3.png" width = "70%">  
+<img src = "https://user-images.githubusercontent.com/50826051/95011529-4479ce00-066c-11eb-9244-13deda9694d5.png" width = "70%">  
   
   
 1월 말 쯤 대부분의 행정구에서 유동인구가 급감한 시기가 있고,  
@@ -267,7 +267,7 @@ raw[raw.유동인구수 == 23917450]
 2월 23일이 유동인구가 급증한 날이었다.  
 내 기억으로는 우리나라에서 코로나 공포가 점점 심화?되는 시기인데,, 위키피디아에 검색해봐도 코로나 외에는 특이점이 보이지 않았다. 👀  
   
-<img src = "https://user-images.githubusercontent.com/50826051/95011380-3ecfb880-066b-11eb-8e30-654a953b2a4d.png" width="70%>  
+<img src = "https://user-images.githubusercontent.com/50826051/95011380-3ecfb880-066b-11eb-8e30-654a953b2a4d.png" width="70%">  
   
 네이버 검색어 트랜드를 통해서도 2월 23일 전후로 '코로나' 검색이 급증한 것을 볼 수 있다.   
 아무래도 코로나와 관련이 있어 보이고, 코로나에 대한 우려와 공포로 유동인구가 줄어들 것만 같은데,, 급증한 이유가 뭘까?  
