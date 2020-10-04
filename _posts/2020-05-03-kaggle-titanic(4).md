@@ -5,6 +5,7 @@ categories: "STUDY"
 tags:
 #excerpt: "STUDY"
 comments: true
+published: false
 ---
 
 지난 포스트:point_right: [(3)Feature Engineering](https://masunii.github.io/study/kaggle-titanic(3)/)
