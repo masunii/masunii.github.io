@@ -5,6 +5,7 @@ categories: "STUDY"
 tags: 
 #excerpt: "STUDY"
 comments: true
+published: false
 ---
 
 작년 언젠가 kaggle에 대해 알게 되었을 때 처음으로 데이터 분석에 관심을 갖게 되었던 것 같다.  
