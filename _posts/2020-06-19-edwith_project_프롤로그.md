@@ -5,6 +5,7 @@ categories: "STUDY"
 tags:
 #excerpt: "STUDY"
 comments: TRUE
+published: false
 ---
 
 edwith의 부스트 코스 '파이썬으로 시작하는 데이터 사이언스' 과정을 마치고,  
