@@ -1,9 +1,9 @@
 ---
 title: "코로나로 인한 서울시 지역별 유동인구 변화 분석(1)"
 date: 2020-09-25
-categories: "Do myself"
+categories: "생활 분석"
 tags: 
-#excerpt: "Do myself"
+#excerpt: "생활 분석"
 comments: true
 published: true
 ---
