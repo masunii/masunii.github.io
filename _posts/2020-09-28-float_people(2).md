@@ -5,7 +5,7 @@ categories: "분석생활"
 tags: 
 #excerpt: "분석생활"
 comments: true
-published: false
+published: true
 ---
 
 [앞선 글](https://masunii.github.io/%EB%B6%84%EC%84%9D%EC%83%9D%ED%99%9C/float_people(1)/) 에서 서울시 지역별 일일 유동인구 추이를 그래프로 살펴보았습니다.
