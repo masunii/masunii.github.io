@@ -70,7 +70,7 @@ raw_1 = pd.concat([raw19, raw20], axis=0, ignore_index=True)
 raw_1.head()
 ```  
 `*결과*`  
-<img src = "https://user-images.githubusercontent.com/50826051/95021075-d2c07500-06a9-11eb-8aa3-e455b075cb95.png" width="40%">  
+<img src = "https://user-images.githubusercontent.com/50826051/95021075-d2c07500-06a9-11eb-8aa3-e455b075cb95.png" width="50%">  
   
 #### groupby를 이용해 군구별 일일 총 유동인구를 계산하고, 필요없는 컬럼인 '시간(1시간단위)'와 '연령대(10세단위)' 은 제거.  
 ```python
@@ -80,7 +80,7 @@ raw_1 = temp.drop(['시간(1시간단위)', '연령대(10세단위)'], axis=1)
 raw_1.head()
 ```  
 `*결과*`  
-<img src = "https://user-images.githubusercontent.com/50826051/95021107-026f7d00-06aa-11eb-9d59-e7d5d4d673fa.png" width="40%">  
+<img src = "https://user-images.githubusercontent.com/50826051/95021107-026f7d00-06aa-11eb-9d59-e7d5d4d673fa.png" width="30%">  
   
   
 #### 군구별 2019년, 2020년 유동인구 비교 그래프 그리기
@@ -159,7 +159,7 @@ group2) 19년도 대비 20년도에 유동인구가 증가한 그룹
 **group2**: 주거지역  
 으로 예상이 되는데, 이것이 맞을지 데이터로 한번 살펴보기로 합니다.  
   
-#### 군구별 용도별 건축물 개수 비교  
+#### 행정구별 용도별 건축물 개수 비교  
 서울시 데이터포털에서 [서울시 건축허가 통계 데이터](https://data.seoul.go.kr/dataList/235/S/2/datasetView.do)를 찾아 다운받습니다.   
 ```python
 GunGu_data = pd.read_csv('/content/drive/My Drive/colab/blogger/유동인구/행정구역정보.txt', engine='python', sep='\t')
@@ -169,7 +169,7 @@ GunGu_data = temp[['자치구별', '용도별', '계']]
 GunGu_data.head()
 ```
 `*결과*`  
-<img src = "https://user-images.githubusercontent.com/50826051/95021444-fe445f00-06ab-11eb-9fca-faf4c06319f3.png" width="40%">  
+<img src = "https://user-images.githubusercontent.com/50826051/95021444-fe445f00-06ab-11eb-9fca-faf4c06319f3.png" width="30%">  
 행정구별 주거용, 상업용 건축물 동수(개수)를 비교해보겠습니다.    
   
 #### 행정구별 주거용 건축물 수, 상업용 건축물 수 비교  
