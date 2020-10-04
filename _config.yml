@@ -17,7 +17,7 @@
 minimal_mistakes_skin    : "contrast" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 # Site Settings
 locale                   : "en-US"
-title                    : "masunii의 블로그"
+title                    : "슬기로운 분석생활"
 title_separator          : "-"
 subtitle                 : "공부하고 생각하고 즐기는 공간" # site tagline that appears below site title in masthead
 name                     : "KYEONGAH MA"
@@ -96,7 +96,7 @@ analytics:
 author:
   name             : "KYEONGAH MA"
   avatar           : "/P20170921_011006000_A4B7B88F-54FE-4EF3-8516-1635B91C5159.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
+  bio              : "I do data analytics."
   location         : "SEOUL, SOUTH KOREA"
   email            : mka31053@gmail.com
   links:
