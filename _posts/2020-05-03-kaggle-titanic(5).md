@@ -5,6 +5,7 @@ categories: "STUDY"
 tags:
 #excerpt: "STUDY"
 comments: true
+published: false
 ---
 
 지난 포스트:point_right: [kaggle_titanic_(4)Machine Learning Modelling](https://masunii.github.io/study/kaggle-titanic(4)/)
