@@ -188,7 +188,7 @@ for i, f in enumerate(GunGu_data.자치구별.unique()):
 fig.tight_layout()
 ```
 `*결과*`  
-<img src = "https://user-images.githubusercontent.com/50826051/95022379-f1c30500-06b1-11eb-81d0-16544d878dcb.png" width="80%">  
+<img src = "https://user-images.githubusercontent.com/50826051/95022477-8168b380-06b2-11eb-8feb-355ae788cfa8.png" width="80%">  
 그래프 상으로 대부분의 행정구가 주거용건물 : 상업용건물 비율이 뚜렷하게 차이나는 것을 볼 수 있었습니다.  
 
 **상업용 > 주거용** 이면 **'상업지역'**, **주거용 > 상업용** 이면 **'주거지역'** 으로 행정구 분류  
