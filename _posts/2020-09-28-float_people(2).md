@@ -250,7 +250,7 @@ for i, f in enumerate(GunGu):
 fig.tight_layout()
 ```
 `*결과*`  
-<img src = "https://user-images.githubusercontent.com/50826051/95022884-b544d880-06b4-11eb-8332-43c7e42d33b8.png' width="80%">  
+<img src = "https://user-images.githubusercontent.com/50826051/95022884-b544d880-06b4-11eb-8332-43c7e42d33b8.png" width="80%">  
   
 흥미롭게도 행정구별로 시간대별 유동인구 흐름의 차이가 보입니다.  
 [앞선 포스트](https://masunii.github.io/%EB%B6%84%EC%84%9D%EC%83%9D%ED%99%9C/float_people(2)/)에서 행정구를 분류했던 기준인 상업지역/주거지역 의 차이를 보면  
